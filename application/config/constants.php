@@ -83,3 +83,8 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+define('OPENPAY_ID', 'mssiputkv402ccjnxtzp');
+define('OPENPAY_PRIVATEKEY', 'sk_6194fa3b9e654a3a81795282ca6cfc9e');
+define('OPENPAY_PUBLICKEY', 'pk_d5492e1cfa6e40bcafec7629eb0a7417');
+define('OPENPAY_URL', 'https://sandbox-api.openpay.mx/v1/');

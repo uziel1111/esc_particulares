@@ -97,11 +97,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="row">
 							<div class="col-6 mt-4">
 								<div class="credit"><h4>Tarjetas de crédito</h4></div>
-								<img src="<?= base_url('assets/img/cards1.png') ?>" alt="" class="img-fluid">
+								<img src="<?= base_url('assets/img/openpay/cards1.png') ?>" alt="" class="img-fluid">
 							</div><!-- .col-6 -->
 							<div class="col-6 mt-4">
 								<div class="debit"><h4>Tarjetas de débito</h4></div>
-								<img src="<?= base_url('assets/img/cards2.png') ?>" alt="" class="img-fluid">
+								<img src="<?= base_url('assets/img/openpay/cards2.png') ?>" alt="" class="img-fluid">
 							</div><!-- .col-6 -->
 						</div><!-- .row -->
 						<div class="row">
@@ -136,7 +136,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 											<input type="text" placeholder="3 dígitos" autocomplete="off" data-openpay-card="cvv2" class="form-control">
 										</div><!-- .col-6 -->
 										<div class="col-6">
-											<img src="<?= base_url('assets/img/cvv.png') ?>" alt="" class="img-fluid">
+											<img src="<?= base_url('assets/img/openpay/cvv.png') ?>" alt="" class="img-fluid">
 										</div><!-- .col-6 -->
 									</div><!-- .row -->
 
@@ -150,10 +150,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div class="row">
 									<div class="col-6 mt-5">
 										<small>Transacciones realizadas vía:</small><br>
-										<img src="<?= base_url('assets/img/openpay.png') ?>" alt="" class="img-fluid">
+										<img src="<?= base_url('assets/img/openpay/openpay.png') ?>" alt="" class="img-fluid">
 									</div><!-- .col-6 -->
 									<div class="col-6 mt-5">
-										<img src="<?= base_url('assets/img/security.png') ?>" alt="" class="img-fluid">
+										<img src="<?= base_url('assets/img/openpay/security.png') ?>" alt="" class="img-fluid">
 											<small>Tus pagos se realizan de forma segura con encriptación de 256 bits</small><br>
 
 									</div><!-- .col-6 -->

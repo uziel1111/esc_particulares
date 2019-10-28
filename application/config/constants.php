@@ -88,3 +88,8 @@ define('OPENPAY_ID', 'mssiputkv402ccjnxtzp');
 define('OPENPAY_PRIVATEKEY', 'sk_6194fa3b9e654a3a81795282ca6cfc9e');
 define('OPENPAY_PUBLICKEY', 'pk_d5492e1cfa6e40bcafec7629eb0a7417');
 define('OPENPAY_URL', 'https://sandbox-api.openpay.mx/v1/');
+
+define('MESSAGEREQUEST', 'message_request_esc_particulares');
+define('SUCCESMESSAGE', '1');
+define('ERRORMESSAGE', '2');
+define('DATOSUSUARIO', "datos_usuario_esc_particulares");

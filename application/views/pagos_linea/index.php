@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		// Atrapamos el evento de clic del botón "Pagar" para que en lugar de que haga el submit del formulario realice la función "tokenize" de la tarjeta:
 		$("#pay-button").click(function(e){
 			e.preventDefault();
-			alert("click pay-button");
+			// alert("click pay-button");
 			$("#pay-button").prop( "disabled", true);
 			OpenPay.token.extractFormAndCreate('payment-form', success_callbak, error_callbak);
 		});
@@ -87,7 +87,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	    Tarjeta de crédito o débito
 	  </div>
 	  <div class="card-body">
-			<?= form_open('Welcome/openpay', array("id" => "payment-form")) ?>
+			<?= form_open('Pagos_linea/openpay', array("id" => "payment-form")) ?>
 
 			<form action="#" method="POST" id="payment-form">
 			    <input type="hidden" name="token_id" id="token_id">

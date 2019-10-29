@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante>
+	<cfdi:CfdiRelacionados TipoRelacion="01">
+		<cfdi:CfdiRelacionado UUID="A39DA66B-52CA-49E3-879B-5C05185B0EF7"/>
+	</cfdi:CfdiRelacionados>
+	<cfdi:Emisor Rfc="LAHH850905BZ4" Nombre="Luis Sanchez" RegimenFiscal="2"/>
+	<cfdi:Receptor Rfc="HEPR930322977" Nombre="RAFAEL ALEJANDRO HERNÁNDEZ PALACIOS" UsoCFDI="G01"/>
+	<cfdi:Conceptos>
+		<cfdi:Concepto ClaveProdServ="01010101" ClaveUnidad="F52" NoIdentificacion="00001" Cantidad="1.5" Unidad="TONELADA" Descripcion="ACERO" ValorUnitario="1500000" Importe="2250000">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="2250000" Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="360000"/>
+				</cfdi:Traslados>
+				<cfdi:Retenciones>
+					<cfdi:Retencion/>
+				</cfdi:Retenciones>
+			</cfdi:Impuestos>
+			<cfdi:CuentaPredial/>
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+</cfdi:Comprobante>
